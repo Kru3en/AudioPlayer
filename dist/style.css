@@ -1,0 +1,280 @@
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*************************************************************************************************************/
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none; }
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: black; }
+
+:root {
+  --background-image: url(e6c941d4de4532c33f19.png);
+  /* Значение по умолчанию */ }
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: blur(9px);
+  /* Здесь задается эффект размытия */
+  z-index: -1; }
+
+.background-container {
+  background-image: url(e6c941d4de4532c33f19.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 35px;
+  padding-top: 200px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5); }
+  .background-container .audio-player {
+    height: 150px;
+    width: 350px;
+    background: linear-gradient(to bottom right, #525858, #678692);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    font-family: arial;
+    color: white;
+    font-size: 0.75em;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 6px auto;
+    padding: 20px; }
+    .background-container .audio-player .prew {
+      position: relative;
+      left: 8%;
+      top: 260%;
+      height: 25px;
+      width: 25x;
+      margin-left: 35px;
+      background-image: url(d6010aade3c3591798f5.png);
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .background-container .audio-player .next {
+      position: relative;
+      left: 18%;
+      top: 160%;
+      height: 25px;
+      width: 25x;
+      margin-left: 35px;
+      background-image: url(be3a85a2586cc00b7bdf.png);
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .background-container .audio-player .timeline {
+      background: white;
+      width: 60%;
+      position: relative;
+      left: 20%;
+      top: 90%;
+      max-height: 7px;
+      margin-bottom: 50px;
+      cursor: pointer;
+      box-shadow: 0 2px 10px 0 #0008;
+      height: 5px; }
+      .background-container .audio-player .timeline .progress {
+        background: coral;
+        width: 0%;
+        height: 100%;
+        transition: 0.25s; }
+      .background-container .audio-player .timeline .time {
+        display: flex;
+        max-height: 7px;
+        margin-top: -25px;
+        margin-left: 70%; }
+        .background-container .audio-player .timeline .time > * {
+          padding: 2px; }
+    .background-container .audio-player .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      height: 50px;
+      padding: 0 20px; }
+      .background-container .audio-player .controls > * {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .background-container .audio-player .controls .toggle-play.play {
+        cursor: pointer;
+        position: relative;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        background-image: url(579805b4e1bc8b14429b.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .background-container .audio-player .controls .toggle-play.play:hover {
+          transform: scale(1.1); }
+      .background-container .audio-player .controls .toggle-play.pause {
+        height: 15px;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        position: relative;
+        background-image: url(69b9c0c20679ff524172.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .background-container .audio-player .controls .toggle-play.pause:hover {
+          transform: scale(1.1); }
+      .background-container .audio-player .controls .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; }
+        .background-container .audio-player .controls .text-container .name {
+          font-size: 18px; }
+      .background-container .audio-player .controls .volume-container {
+        cursor: pointer;
+        position: relative;
+        z-index: 2; }
+        .background-container .audio-player .controls .volume-container .volume-button {
+          height: 26px;
+          display: flex;
+          align-items: center;
+          position: relative;
+          left: 0;
+          height: 50px;
+          width: 50px; }
+          .background-container .audio-player .controls .volume-container .volume-button .volume {
+            transform: scale(0.7); }
+            .background-container .audio-player .controls .volume-container .volume-button .volume.icono-volumeMedium {
+              height: 50px;
+              width: 50px;
+              background-image: url(09f156dfdfba943ff863.png);
+              background-repeat: no-repeat;
+              background-size: contain; }
+            .background-container .audio-player .controls .volume-container .volume-button .volume.icono-volumeMute {
+              height: 50px;
+              width: 50px;
+              background-image: url(a674a789816cc1a4e2a5.png);
+              background-repeat: no-repeat;
+              background-size: contain; }
+        .background-container .audio-player .controls .volume-container .volume-slider {
+          position: absolute;
+          left: -3px;
+          top: 15px;
+          z-index: -1;
+          width: 0;
+          height: 15px;
+          background: white;
+          box-shadow: 0 0 20px #000a;
+          transition: .25s; }
+          .background-container .audio-player .controls .volume-container .volume-slider .volume-percentage {
+            background: coral;
+            height: 100%;
+            width: 75%; }
+        .background-container .audio-player .controls .volume-container:hover .volume-slider {
+          left: -123px;
+          width: 120px; }
+
