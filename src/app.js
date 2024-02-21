@@ -15,7 +15,7 @@ const tracks = [
         url: "../file-storage-audio-player/assets/audio/A.V.G, MACAN – Спой.mp3",
         name: "Спой",
         artist: "A.V.G, MACAN",
-        image: "https://github.com/Kru3en/AudioPlayer/blob/main/file-storage-audio-player/assets/img/AVG.png
+        image: "https://github.com/Kru3en/AudioPlayer/blob/main/file-storage-audio-player/assets/img/AVG.png"
     },
     {
         url: "../file-storage-audio-player/assets/audio/Ицык Цыпер feat. Игорь цыба – Дымок.mp3",
