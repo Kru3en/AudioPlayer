@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-    --background-image: url('/file-storage-audio-player/assets/img/lemonade.png');
+    --background-image: url('../file-storage-audio-player/assets/img/lemonade.png');
     /* Значение по умолчанию */
 }
 
@@ -30,7 +30,7 @@ body::before {
 }
 
 .background-container {
-    background-image: url("/file-storage-audio-player/assets/img/lemonade.png");
+    background-image: url("../file-storage-audio-player/assets/img/lemonade.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 35px;
@@ -60,7 +60,7 @@ body::before {
             height: 25px;
             width: 25x;
             margin-left: 35px;
-            background-image: url("/file-storage-audio-player/assets/svg/prew.png");
+            background-image: url("../file-storage-audio-player/assets/svg/prew.png");
             background-repeat: no-repeat;
             background-size: contain;
         }
@@ -72,7 +72,7 @@ body::before {
             height: 25px;
             width: 25x;
             margin-left: 35px;
-            background-image: url("/file-storage-audio-player/assets/svg/next.png");
+            background-image: url("../file-storage-audio-player/assets/svg/next.png");
             background-repeat: no-repeat;
             background-size: contain;
         }
@@ -133,7 +133,7 @@ body::before {
                     height: 50px;
                     width: 50px;
 
-                    background-image: url("/file-storage-audio-player/assets/svg/play.png");
+                    background-image: url("../file-storage-audio-player/assets/svg/play.png");
                     background-repeat: no-repeat;
                     background-size: contain;
 
@@ -148,7 +148,7 @@ body::before {
                     width: 50px;
                     cursor: pointer;
                     position: relative;
-                    background-image: url("/file-storage-audio-player/assets/svg/pause.png");
+                    background-image: url("../file-storage-audio-player/assets/svg/pause.png");
                     background-repeat: no-repeat;
                     background-size: contain;
 
@@ -188,7 +188,7 @@ body::before {
                         &.icono-volumeMedium {
                             height: 50px;
                             width: 50px;
-                            background-image: url("/file-storage-audio-player/assets/svg/on.png");
+                            background-image: url("../file-storage-audio-player/assets/svg/on.png");
                             background-repeat: no-repeat;
                             background-size: contain;
                         }
@@ -196,7 +196,7 @@ body::before {
                         &.icono-volumeMute {
                             height: 50px;
                             width: 50px;
-                            background-image: url("/file-storage-audio-player/assets/svg/off.png");
+                            background-image: url("../file-storage-audio-player/assets/svg/off.png");
                             background-repeat: no-repeat;
                             background-size: contain;
                         }
