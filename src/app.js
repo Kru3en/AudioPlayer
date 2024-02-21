@@ -23,7 +23,7 @@ const tracks = [
         artist: "Ицык Цыпер feat. Игорь цыба",
         image: "https://img02.rl0.ru/afisha/e1200x800i/daily.afisha.ru/uploads/images/5/71/571a72c3e9665140c805f6a6ae6fd272.jpg"
     }, {
-        url: "../file-storage-audio-player/assets/audio/beyonce.mp3",
+        url: "https://github.com/Kru3en/AudioPlayer/blob/main/file-storage-audio-player/assets/audio/beyonce.mp3",
         name: "Лимонад",
         artist: "beyonce",
         image: "../file-storage-audio-player/assets/img/lemonade.png"
