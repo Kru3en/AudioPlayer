@@ -11,13 +11,13 @@ const trackArtist = audioPlayer.querySelector(".text-container .artist");
 
 const tracks = [
     {
-        url: "./src/file-storage-audio-player/assets/audio/A.V.G, MACAN – Спой.mp3",
+        url: "./src/file-storage-audio-player/assets/audio/avg.mp3",
         name: "Спой",
         artist: "A.V.G, MACAN",
         image: "./src/file-storage-audio-player/assets/img/AVG.png"
     },
     {
-        url: "./src/file-storage-audio-player/assets/audio/Ицык Цыпер feat. Игорь цыба – Дымок.mp3",
+        url: "./src/file-storage-audio-player/assets/audio/dimok.mp3",
         name: "Дымок",
         artist: "Ицык Цыпер feat. Игорь цыба",
         image: "https://img.gazeta.ru/files3/175/18165175/1111222333-pic_32ratio_1200x800-1200x800-64721.jpg"
