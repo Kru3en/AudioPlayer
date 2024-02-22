@@ -20,7 +20,7 @@ const tracks = [
         url: "./src/file-storage-audio-player/assets/audio/dimok.mp3",
         name: "Дымок",
         artist: "Ицык Цыпер feat. Игорь цыба",
-        image: "https://img.gazeta.ru/files3/175/18165175/1111222333-pic_32ratio_1200x800-1200x800-64721.jpg"
+        image: "./src/file-storage-audio-player/assets/img/dimok.jpg"
     }, {
         url: "./src/file-storage-audio-player/assets/audio/beyonce.mp3",
         name: "Лимонад",
